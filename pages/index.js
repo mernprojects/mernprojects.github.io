@@ -11,11 +11,11 @@ export default function Home({ posts }) {
   return (
     <div>
       <NextSeo
-        title="Welcome to my blog home page"
+        title="Welcome to MERN Projects"
         description="Build nextjs blog website with Markdown, sitemap, serachbar, category, tag and SEO support"
         openGraph={{
           url: "http://mernprojects.github.io",
-          title: "Welcome to my blog home page",
+          title: "Welcome to MERN Projects",
           description:
             "Build nextjs blog website with Markdown, sitemap, serachbar, category, tag and SEO support",
           images: [
