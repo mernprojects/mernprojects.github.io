@@ -14,7 +14,7 @@ export default function Category({ posts }) {
         title="Access your category realted articles"
         description="Access your category realted articles"
         openGraph={{
-          url: "https://fang-zhang.github.io",
+          url: "https://mernprojects.github.io",
           title: "Access your category realted articles",
           description: "Access your category realted articles",
 

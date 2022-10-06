@@ -2,7 +2,7 @@ export default {
     openGraph: {
       type: 'website',
       locale: 'en_IE',
-      url: 'https://fang-zhang.github.io',
+      url: 'https://mernprojects.github.io',
       site_name: 'Fang Zhang',
     },
     twitter: {
