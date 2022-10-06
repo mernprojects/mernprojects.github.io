@@ -19,9 +19,12 @@ export default function ItemPost({ post: { post } }) {
         />
       </a>
       <div className="card-body">
-        <div className="small text-muted">{`${
-          date.getMonth() + 1
-        } - ${date.getDate()} - ${date.getFullYear()}`}</div>
+        <div className="small text-muted">
+          {`${date.getMonth()}-${date.getDate()}-${date.getFullYear()}`}
+        </div>
+        {/* <Link href={`/blog/${post.slug}`}>
+          <a style={{fontsize: h2}}>{post.title}</a>
+        </Link> */}
         <h2 className="card-title">{post.title}</h2>
         <p className="card-text">{post.summary}</p>
         <Link href={`/blog/${post.slug}`}>

@@ -1,7 +1,7 @@
 ---
 author: "Fang Zhang"
 categories: ["npm", "npm-cli", "npm install command"]
-date: "2022-03-20T13:09:24Z"
+date: "2022-9-16"
 description: "Npm install command help to install package from npmjs.org"
 image: "images/posts/img1.jpg"
 images: ["images/posts/img1.jpg"]
