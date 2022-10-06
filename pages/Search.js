@@ -35,7 +35,7 @@ export default function Search() {
         title="Search the page"
         description="Find the search result page"
         openGraph={{
-          url: "http://fang-zhang.github.io/",
+          url: "http://mernprojects.github.io/",
           title: "Search the page",
           description: "Find the search result page",
           images: [

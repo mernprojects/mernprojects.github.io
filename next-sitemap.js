@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: process.env.SITE_URL || 'https://fang-zhang.github.io',
+    siteUrl: process.env.SITE_URL || 'https://mernprojects.github.io',
     generateRobotsTxt: true, //(optional)
     //Default transformation function
 }

@@ -18,7 +18,7 @@ export default function tag({ posts }) {
      title= 'Access your tag realted articles'
      description= 'Access your tag realted articles'
         openGraph={{
-          url: 'https://fang-zhang.github.io',
+          url: 'https://mernprojects.github.io',
           title: 'Access your tag realted articles',
           description: 'Access your tag realted articles',
 
