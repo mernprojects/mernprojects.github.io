@@ -5,7 +5,7 @@ export default function Aboutme({ posts }) {
   return (
     <div>
       <Head>
-        <title>Fang Zhang</title>
+        <title>About MERN Projects</title>
       </Head>
       <div style={{ textAlign: "start", margin: "2rem", fontSize: "1.5rem" }}>
         I worked in IoT system development and project management in China for
