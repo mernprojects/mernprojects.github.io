@@ -30,10 +30,9 @@ export default function Post({ post }) {
         <img className="card-img-top" src={post.frontmatter.image} alt="..." />
       </a>
       <div className="card-body">
-        <div className="small text-muted">{`${
-          date.getMonth() + 1
-        } - ${date.getDate()} - ${date.getFullYear()}`}</div>
-
+        <div className="small text-muted">
+          {`${date.getMonth() + 1} - ${date.getDate()} - ${date.getFullYear()}`}
+        </div>
         <div>
           {" "}
           {post.frontmatter.tags.map((tag) => {
@@ -48,10 +47,16 @@ export default function Post({ post }) {
             );
           })}{" "}
         </div>
-        <h2 className="card-title">{post.frontmatter.title}</h2>
+        <Link href={`/blog/${post.slug}`}>
+          <a>
+            <h2 className="card-title">{post.frontmatter.title}</h2>
+          </a>
+        </Link>
         <p className="card-text">{post.frontmatter.summary}</p>
         <Link href={`/blog/${post.slug}`}>
-          <a className="btn">Read More</a>
+          <button>
+            Read More
+          </button>
         </Link>
       </div>
     </div>
