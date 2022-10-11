@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Aboutme({ posts }) {
+export default function About() {
   return (
     <div>
       <Head>
