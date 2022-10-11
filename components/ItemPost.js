@@ -20,7 +20,7 @@ export default function ItemPost({ post: { post } }) {
       </a>
       <div className="card-body">
         <div className="small text-muted">
-          {`${date.getMonth()}-${date.getDate()}-${date.getFullYear()}`}
+          {`${date.getMonth()+1}-${date.getDate()}-${date.getFullYear()}`}
         </div>
         {/* <Link href={`/blog/${post.slug}`}>
           <a style={{fontsize: h2}}>{post.title}</a>

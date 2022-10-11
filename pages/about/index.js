@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Aboutme({ posts }) {
+export default function About() {
   return (
     <div>
       <Head>
-        <title>Fang Zhang</title>
+        <title>About MERN Projects</title>
       </Head>
       <div style={{ textAlign: "start", margin: "2rem", fontSize: "1.5rem" }}>
         I worked in IoT system development and project management in China for
