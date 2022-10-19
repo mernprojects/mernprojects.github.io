@@ -91,7 +91,7 @@ export default function PostPage({ content, frontmatter }) {
           type: "article",
           article: {
             publishedTime: frontmatter.date,
-            authors: ["https://mernprojects.github.io/pages/about"],
+            authors: ["https://mernprojects.github.io/about"],
             tags: frontmatter.tags,
           },
           images: imageMeta,
